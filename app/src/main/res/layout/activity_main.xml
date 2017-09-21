@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="onairm.com.popprogressbar.MainActivity">
+
+    <onairm.com.popprogressbar.MySeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:max="80"
+        android:maxHeight="3dp"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:splitTrack="false"
+        android:thumb="@mipmap/progress_thumb"
+        app:img="@mipmap/cloths"
+        app:textcolor="#fff"
+        app:textsize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#334"
+        />
+
+</android.support.constraint.ConstraintLayout>
